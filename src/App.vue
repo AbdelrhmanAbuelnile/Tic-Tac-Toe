@@ -84,6 +84,7 @@ const RestGame = () => {
     <button @click="RestGame" class="px-4 py-2 bg-pink-500 hover:bg-pink-600 duration-300 rounded">
       Rest Game
     </button>
+    
   </main>
 </template>
 
