@@ -68,7 +68,7 @@ const RestGame = () => {
         v-for="(cell, y) in row"
         :key="y"
         @click="MakeMove(x, y)"
-        :class="`border-2 border-white w-20 h-20 hover:bg-gray-700
+        :class="`border-2 border-black dark:border-white w-20 h-20 hover:bg-gray-300 dark:hover:bg-gray-700
         flex items-center justify-center material-icons-outlined text-4xl cursor-pointer
         ${cell === 'X' ? 'text-pink-500' : 'text-blue-500'}`"
         >
